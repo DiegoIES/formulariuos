@@ -1,0 +1,43 @@
+.margen{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.texto{
+    background-color: white;
+    /* border-color: ; */
+}
+input.boton3{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: orangered;
+    border-radius: 6px;
+    border: none;
+}
+.boton1{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: green;
+    border-radius: 6px;
+    border: none;
+}
+.texto2{
+    background-color: white;
+    /* text-align: center; */
+   /*  border-color: green; */
+}
+div.titulo{
+    text-align: center;
+}
+div.form{
+    margin-left: 600px;
+}

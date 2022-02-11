@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="form">
+    <!-- <img alt="" style="width: 200px; height: 100px; margin-top: 6.6px; margin-left: 0px;" class="" src="" id="yui_3_5_1_1_1644495518973_971"> -->
+    <h1>Accede a tu Área Clientes</h1>
+    <form action="ing.php">
+        <p>Elige tu documento</p>
+       <p> <input type="radio" name="DNI">DNI o Tarjeta de residencia</p>
+       <p><input type="radio" name="pasaporte">Pasaporte</p>
+       <p>Número de documento</p>
+       <input type="text" name="DNI" id="DNI" placeholder="DNI o Tarjeta de residencia">
+       <p>Fecha de nacimiento</p>
+       <input type="date" name="fecha" id="fecha">
+       <p><input type="checkbox" name="Recordar" id="Recordar">Recordar</p>
+       <p><input class="boton3" type="button" value="Entrar"></p>
+        <p><a href="https://ing.ingdirect.es/pfm/#login-dnie">Acceder con DNI electrónico</a></p>
+        <p><a href="https://ing.ingdirect.es/pfm/#login/security-information">Más información sobre seguridad</a></p>
+    </form>
+    </div>
+    <hr style="color: orange;">
+    <main >
+        <div class="margen">
+        <h1>Empieza creando tu usuario</h1>
+        
+        <form action="usuarios">
+            <p><input type="text" name="Nombre" id="Nombre" placeholder="Nombre (como sale en el DNI"style="WIDTH: 450px; HEIGHT: 25px"> </p>
+                <p><input type="text" name="apellido" id="apellido" placeholder="1º apellido (como sale en el DNI)"><input type="text" name="apellido2" id="apellido2" placeholder="2º apellido (como sale en el DNI)" style="WIDTH: 230px; HEIGHT: 25px"></p>
+                <select name="menu" id="menu" style="WIDTH: 220px; HEIGHT: 25px">
+                <optgroup label="TIPO DE DOCUMENTO"></optgroup>
+                <optgroup label="DNI/NIF/CERT.AEAT"></optgroup>
+                <option value="1">DNI</option>
+                <option value="2">NIF</option>
+                <option value="3">CERT.AEAT</option>
+            </select> <input type="text" placeholder="Número de documento" style="WIDTH: 226px; HEIGHT: 25px"></p> 
+            <p></p><input type="email" id="email" placeholder="Email"> <input type="telf" placeholder="Movil"style="WIDTH: 226px; HEIGHT: 25px"></p>
+            <hr>
+
+        <form action="pizza.php">
+            <div class="titulo">
+                <h1>¿Eres nuevo?</h1>
+                    <p>Resgistrate para guardar tu información y hacer<br>tus pedidos de forma más fácil y rápida.</p> 
+                    </div>
+                </div>
+            <div class="form">
+                  <p>Email</p>
+                    <input type="email" name="email" id="email" placeholder="Introduce tu email" class="datos">
+                    <p>Teléfono</p>
+                    <input type="tel" name="telf" id="telf" placeholder="Tu teléfono" class="datos">
+                    <p>Contraseña</p>
+                    <input type="password" name="password" id="password" placeholder="Introduce tu contraseña" class="datos">
+                    <p>Confirma tu contraseña</p>
+                    <input type="password" name="password1" id="password1" placeholder="Confirmar contraseña" class="datos">
+                   <p> <input type="checkbox" name="politica" id="politica"> He leído y acepto <a href="https://www.pizzahut.es/info/aviso-legal">Política de privacidad</a></p>
+                   <p><input type="checkbox" name="notificaciones" id="notificaciones">Sí, acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil.</p>
+                   <input class="boton1" type="button" value="Crear cuenta">
+                </div>
+                </form>
+    
+            
+        </form>
+    </main>
+</body>
+</html>
